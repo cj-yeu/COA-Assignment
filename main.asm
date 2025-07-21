@@ -39,6 +39,7 @@ WriteFile PROTO, hFile:DWORD, lpBuffer:PTR BYTE, nNumberOfBytesToWrite:DWORD, lp
 .code
 
 main PROC
+    ;first commit
     ; Get console handles
     INVOKE GetStdHandle, STD_OUTPUT_HANDLE
     mov hConsoleOut, eax
